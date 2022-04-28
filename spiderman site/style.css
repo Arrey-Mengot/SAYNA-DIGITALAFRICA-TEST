@@ -1,0 +1,142 @@
+@import url('http://fonts.cdnfonts.com/css/far-from-homecoming');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* @font-face {
+    font-family: "FarFromHomecoming";
+    src: local('FarFromHomecoming.woff2') format('woff2');
+} */
+
+header{
+    background-color: #B11313;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+header li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 14;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    margin-top:auto ;
+    margin-bottom: auto;
+}
+.logo-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.hero{
+    height: 870px;
+    background-image: url(img/img1.png);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+}
+.hero .heading{
+    padding-top: 300px;
+    color: aliceblue;
+    font-family: 'Far From Homecoming',Fallback, sans-serif;
+    font-size: 70px;
+    /* font-style: italic; */
+    display: flex;
+     flex-direction: column;
+    align-self: center; 
+    padding-left: 100px;
+    padding-right: 100px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:#B90000;
+    
+}
+.versions{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    color: white;
+}
+.versions h1{
+    font-family: 'Far From Homecoming',Fallback, sans-serif;
+    font-size: 30px;
+}
+.hero p{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.version-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    
+}
+
+.detail{
+    max-width: 306px;
+    max-height: 500px;
+    padding-bottom: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+     
+}
+.detail img{
+    padding-bottom: 30px;
+}
+.detail p{
+    color: white;
+    text-align: justify;
+    text-justify:inter-word;
+    font-size: 14px; 
+}
+.detail ul{
+    list-style-type:symbols(-);
+    color: white;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.buttons{
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.btn{
+    border: 2px solid white;
+    background-color: white;
+    color:#B11313;
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.outline{
+    background-color: transparent;
+    color: white;
+}
+.adv{
+    margin-top: 30px;
+    padding-bottom: 70px;
+    
+    /* margin-right: 150px; */
+}
+/* footer{
+    background-color: #B90000;
+} */
